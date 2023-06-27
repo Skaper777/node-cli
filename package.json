@@ -1,0 +1,28 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "eslint --ext .js src/",
+    "start": "node ./src/service/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skaper777/node-cli.git"
+  },
+  "author": "Sergey Semenov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skaper777/node-cli/issues"
+  },
+  "homepage": "https://github.com/Skaper777/node-cli#readme",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-htmlacademy": "0.6.0"
+  }
+}
